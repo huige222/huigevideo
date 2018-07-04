@@ -1,0 +1,565 @@
+
+/**
+ * Bootstrap扩展
+ */
+
+.btn-register {
+  color: #ffffff;
+  background-color: #E92322;
+  border-color: #DB3B43;
+}
+
+.btn-register:hover,
+.btn-register:focus,
+.btn-register:active,
+.btn-register.active,
+.open .dropdown-toggle.btn-register {
+  color: #ffffff;
+  background-color: #E92322;
+  border-color: #DB3B43;
+}
+
+.btn-register:active,
+.btn-register.active,
+.open .dropdown-toggle..btn-register {
+  background-image: none;
+}
+
+.btn-register.disabled,
+.btn-register[disabled],
+fieldset[disabled] .btn-register,
+.btn-register.disabled:hover,
+.btn-register[disabled]:hover,
+fieldset[disabled] .btn-register:hover,
+.btn-register.disabled:focus,
+.btn-register[disabled]:focus,
+fieldset[disabled] .btn-register:focus,
+.btn-register.disabled:active,
+.btn-register[disabled]:active,
+fieldset[disabled] .btn-register:active,
+.btn-register.disabled.active,
+.btn-register[disabled].active,
+fieldset[disabled] .btn-register.active {
+  background-color: #E92322;
+  border-color: #DB3B43;
+}
+
+.btn-register .badge {
+  color: #E92322;
+  background-color: #FFFFFF;
+}
+
+.navbar-huige {
+  background-color: #fff;
+  border-color: #f5f5f5;
+  margin-bottom: 0;
+  top:0;
+  width: 100%;
+}
+
+.navbar-huige .navbar-brand {
+  color: #777;
+  height: 80px;
+}
+
+.navbar-huige .navbar-brand:hover,
+.navbar-huige .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+
+.navbar-huige .navbar-text {
+  color: #777;
+}
+
+.navbar-huige .navbar-nav > li > a {
+  color: #777;
+  line-height: 48px;
+  font-size: 14px;
+}
+
+.navbar-huige .navbar-nav > li > a:hover,
+.navbar-huige .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+  border-bottom: 2px solid #e92322;
+}
+
+.navbar-huige .navbar-nav > .active > a,
+.navbar-huige .navbar-nav > .active > a:hover,
+.navbar-huige .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: transparent;
+  border-bottom: 2px solid #E92322;
+}
+
+.navbar-huige .navbar-nav > .disabled > a,
+.navbar-huige .navbar-nav > .disabled > a:hover,
+.navbar-huige .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+
+.navbar-huige .navbar-toggle {
+  border-color: #ddd;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+.navbar-huige .navbar-toggle:hover,
+.navbar-huige .navbar-toggle:focus {
+  background-color: #ddd;
+}
+
+.navbar-huige .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+
+.navbar-huige .navbar-collapse,
+.navbar-huige .navbar-form {
+  border-color: #e7e7e7;
+}
+
+.navbar-huige .navbar-nav > .open > a,
+.navbar-huige .navbar-nav > .open > a:hover,
+.navbar-huige .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+  .navbar-huige .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+.navbar-huige .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-huige .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-huige .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-huige .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-huige .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-huige .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-huige .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-huige .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+
+.navbar-huige .navbar-link {
+  color: #777;
+}
+
+.navbar-huige .navbar-link:hover {
+  color: #333;
+}
+
+.navbar-huige .btn-link {
+  color: #777;
+}
+
+.navbar-huige .btn-link:hover,
+.navbar-huige .btn-link:focus {
+  color: #333;
+}
+
+.navbar-huige .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-huige .btn-link:hover,
+.navbar-huige .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-huige .btn-link:focus {
+  color: #ccc;
+}
+
+.panel-huige {
+  border: 0;
+  border-radius: 0;
+  box-shadow: 1px 1px 5px #ccc;
+}
+
+.panel-huige.actived {
+  background-color: #e92322;
+  color: #fff;
+}
+
+.panel-huige.disabled {
+  background-color: #e0e0e0;
+}
+
+.panel-huige > .panel-heading {
+  float: right;
+  width: 120px;
+  padding: 0;
+  height: 150px;
+  border-left: 1px dashed #c0c0c0;
+  text-align: center;
+  position: relative;
+}
+
+.panel-huige > .panel-heading::before,
+.panel-huige > .panel-heading::after {
+  content: ' ';
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  position: absolute;
+}
+
+.panel-huige > .panel-heading::before {
+  top: -8px;
+  left: -8px;
+}
+
+.panel-huige > .panel-heading::after {
+  bottom: -8px;
+  left: -8px;
+  box-shadow: 0 2px 1px #ccc inset;
+}
+
+.panel-huige > .panel-body {
+  margin-right: 120px;
+  height: 150px;
+}
+
+.panel-huige > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+
+
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+
+/**
+ * 字体图标
+ */
+
+@font-face {
+  font-family: 'huige2';
+  src:
+    url('../fonts/huige2.ttf') format('truetype'),
+    url('../fonts/huige2.woff') format('woff'),
+    url('../fonts/huige2.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon2-"], [class*=" icon2-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'huige2';
+ 
+  font-style: normal;
+  
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon2-c:before {
+  content: "\e900";
+}
+.icon2-logo:before {
+  content: "\e901";
+}
+
+/*头部*/
+#header{
+	/*height: 200px;*/
+}
+
+#header > .topbar{
+	height: 40px;
+	border-bottom: 1px solid #C0C0C0;
+	line-height: 40px;
+}
+
+#header > .topbar > .container > .row > div{
+	height: 40px;
+	font-size: 12px;
+    color: #888;
+}
+
+#header > .topbar > .container > .row > div + div {
+  border-left: 1px solid #c0c0c0;
+}
+
+#header a {
+  color: #888;
+}
+
+#header .btn-register {
+  color: #fff;
+}
+
+#header a:hover {
+  text-decoration: none;
+}
+
+#header .wchat-link > img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  top: 30px;
+  z-index: 1001;
+}
+
+#header .wchat-link:hover > img {
+  display: block;
+}
+
+#header .icon2-c {
+  font-size: 80px;
+  color: #E92322;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+#header .icon2-logo {
+  font-size: 30px;
+  color: #E92322;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+/*轮播图样式*/
+#main_broadcast{
+	
+}
+
+#main_broadcast > .carousel-inner>.item{
+	background-position: center center;
+	background-repeat:no-repeat ;
+	background-size: cover;
+}
+
+/*什么时候不能使用320px的高度-通过媒体查询控制*/
+@media (min-width:768px ) {
+	/*使用大图时*/
+	#main_broadcast > .carousel-inner>.item{
+		height: 320px;
+	}
+}
+
+#main_broadcast > .carousel-inner>.item>img{
+	width: 100%;
+}
+
+/*特色版块*/
+
+#charter{
+	padding: 40px 0;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+#charter>.container>.row>div{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#charter>.container>.row>div>a{
+	color: #888;
+}
+
+#charter>.container>.row>div>a:hover{
+	color: #666;
+	text-decoration: none;
+}
+
+/*glyphicon 设置图标的颜色与大小*/
+#charter .glyphicon{
+    font-size:30px;
+}
+
+/*在线VR*/
+#onlineVR{
+	padding: 20px 0;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+#onlineVR>.container>p{
+	/*line-height: 50px;*/
+	font-size: 14px;
+	/*bootstrap p有10px的margin-bottom*/
+	margin-bottom: 0;
+}
+
+.rednum{
+	color:#E92322;
+}
+
+#onlineVR>.container>.pull-left>a{
+	border-bottom: 1px dashed #E92322;
+	color:#E92322;
+}
+
+#onlineVR>.container>.pull-right>a{
+	color: #888;
+}
+
+#onlineVR>.container>p>a:hover{
+	text-decoration: none;
+}
+
+/*频道分类*/
+#category{
+	background-color: #F0F0F0;
+	padding: 40px 0;
+}
+
+#category>.container>.ul-wapper>.nav-tabs{
+	padding-left: 20px;
+
+}
+
+
+#category>.container>.ul-wapper>.nav-tabs>li{
+	
+}
+
+#category>.container>.ul-wapper>.nav-tabs> li > a {
+	font-size: 16px;
+	color: #333;
+	
+}
+
+#category>.container>.ul-wapper>.nav-tabs>li>a:hover{
+	background-color: transparent;
+	border-color: transparent;
+	color: #000;
+}
+
+#category>.container>.ul-wapper>.nav-tabs>li.active{
+	
+}
+
+#category>.container>.ul-wapper>.nav-tabs>li.active>a{
+	background-color: transparent;
+	border:0;
+	border-bottom: 4px solid #E92322;
+}
+
+#category>.container>.tab-content{
+	padding: 20px 0;
+}
+
+.panel-heading img{
+	height: 150px ;
+	width: 120px;
+}
+.panel-body .wordtype{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.panel-body>.tooltips{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 15px;
+	left: 10px;
+}
+
+.panel-huige > .panel-body .badge {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  padding: 3px;
+  border-width:1px ;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 0;
+}
+
+.panel-huige > .panel-body .badge-one {
+  color: #E92322;
+  border-color: #399;
+}
+
+.panel-huige > .panel-body .badge-two {
+  color: #399;
+  border-color: #399;
+}
+
+/*新闻*/
+#news{
+	padding: 50px 0;
+}
+
+#news .news-title{
+	padding: 15px 0px;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	border-bottom: 1px dashed #C0C0C0;
+	position: relative;
+	margin-right: 10px;
+}
+
+#news .news-title::after{
+	content: ' ';
+	width: 10px;
+	height: 10px;
+	border-radius:5px ;
+	border: 1px solid #C0C0C0;
+	position: absolute;
+	bottom: -5px;
+	right: -10px;
+}
+
+#news .nav-pills .glyphicon{
+	color: #EAEAEA;
+    font-size:30px;
+}
+
+@media (max-width: 768px) {
+  #news .nav-stacked > li {
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+/*合作伙伴*/
+#hzhb {
+  padding: 30px 0;
+}
+
+#hzhb ul {
+  padding: 0;
+  list-style: none;
+  width: 818px;
+  position: relative;
+  overflow: hidden;
+}
+
+#hzhb ul li {
+  float: left;
+}
+
+#hzhb ul li + li {
+  border-left: 1px dashed #e0e0e0;
+}
+
+#hzhb ul li a {
+  padding: 10px 20px;
+  font-size: 50px;
+  color: #888;
+}
+
+#hzhb ul li a:hover {
+  text-decoration: none;
+}
+
+/*脚注*/
+#footer{
+	height: 200px;
+	background-color: #F0F0F0;
+}

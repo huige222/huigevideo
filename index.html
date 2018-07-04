@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<!--设置IE浏览器的兼容版本-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--视口：声明当前网页在移动端的设置-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>晖哥视频—飞享世界</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<!-- Bootstrap -->
+		<link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">
+		<!--
+    		让浏览器可以识别HTML5新标签
+    		respond让低版本浏览器可以使用css3的媒体查询
+    	-->
+		<!--[if lt IE 9]>
+		   <script src="lib/html5shiv/html5shiv.min.js"></script>
+		   <script src="lib/respond/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<header id="header">
+			<div class="topbar visible-md visible-lg">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 text-center">
+							<a href="#" class="wchat-link">
+								<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+								<span>微信下载</span>
+								<i class="glyphicon glyphicon-chevron-down"></i>
+								<img src="img/c.jpg" height="136" width="120" alt="扫一扫">
+							</a>
+						</div>
+						<div class="col-md-8 text-center">
+							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							<span>159994960074（服务时间：9:00-21:00）</span>
+						</div>
+						<div class="col-md-2 text-center">
+							<a href="#" class="btn btn-register btn-sm">免费注册</a>
+							<a href="#" class="btn btn-link btn-sm" data-toggle="modal" data-target="#login_form">登录</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav class="navbar navbar-huige navbar-static-top" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav_list" aria-expanded="false">
+				            <span class="sr-only">切换菜单</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				        </button>
+						<a class="navbar-brand" href="#">
+							<i class="icon2-logo"></i>
+							<i class="icon2-c"></i>
+						</a>
+					</div>
+					<div id="nav_list" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">电视剧</a>
+							</li>
+							<li>
+								<a href="#">电影</a>
+							</li>
+							<li>
+								<a href="#">综艺</a>
+							</li>
+							<li>
+								<a href="#">动漫</a>
+							</li>
+							<li>
+								<a href="#">体育</a>
+							</li>
+							<li>
+								<a href="#">生活</a>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+							<li>
+								<a href="#">个人中心</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!--轮播图-->
+		<section id="main_broadcast" class="carousel slide" data-ride="carousel">
+			<!-- 指示器 -->
+			<ol class="carousel-indicators">
+				<li data-target="#main_broadcast" data-slide-to="0" class="active"></li>
+				<li data-target="#main_broadcast" data-slide-to="1"></li>
+				<li data-target="#main_broadcast" data-slide-to="2"></li>
+			</ol>
+
+			<!-- 轮播项 -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active" data-img-lg="img/1-1.jpg" data-img-xs="img/2-1.jpg">
+				</div>
+				<div class="item" data-img-lg="img/1-2.jpg" data-img-xs="img/2-2.jpg">
+
+				</div>
+				<div class="item" data-img-lg="img/1-3.jpg" data-img-xs="img/2-3.jpg">
+
+				</div>
+			</div>
+
+			<!-- 左右控制 -->
+			<a class="left carousel-control" href="#main_broadcast" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">上一个</span>
+			</a>
+			<a class="right carousel-control" href="#main_broadcast" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">下一个</span>
+			</a>
+		</section>
+		<!--特色版块-->
+		<section id="charter" class="hidden-xs">
+			<div class="container">
+				<div class="row">
+					<div class=" col-sm-6 col-md-4">
+						<a href="#">
+							<div class="media">
+								<div class="media-left media-middle">
+									<span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">世界杯</h4>
+									<p>聚焦+2018俄罗斯世界杯</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<a href="#">
+							<div class="media">
+								<div class="media-left media-middle">
+									<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">今日热门</h4>
+									<p>新节日"中国农民丰收节"</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<a href="#">
+							<div class="media">
+								<div class="media-left media-middle">
+									<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">强势接档 </h4>
+									<p>近期上架的精彩内容</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<a href="#">
+							<div class="media">
+								<div class="media-left media-middle">
+									<span class="glyphicon glyphicon-cloud" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">猜你喜欢</h4>
+									<p>独播网剧大推荐</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<a href="#">
+							<div class="media">
+								<div class="media-left media-middle">
+									<span class="glyphicon glyphicon-flag" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">原创精选</h4>
+									<p>你的专属频道 为你精心挑选</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<a href="#">
+							<div class="media">
+								<div class="media-left media-middle">
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">会员尊享</h4>
+									<p>特惠开VIP买3送2，集扶摇天灯赢好礼</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--在线VR-->
+		<section id="onlineVR">
+			<div class="container">
+				<p class="pull-left"><span class="glyphicon glyphicon-hd-video" aria-hidden="true"></span> 现在有
+					<span class="rednum">54662</span>名用户正在排队，累计体验用户已达
+					<span class="rednum">956</span>万人次。什么是在线VR影院？
+					<a href="#">立即体验</a>
+				</p>
+				<p class="pull-right hidden-sm hidden-xs">
+					<a href="#">
+						<span class="glyphicon glyphicon-expand" aria-hidden="true"></span>在线VR影院宣传片
+					</a>
+				</p>
+			</div>
+		</section>
+		<!--分类频道-->
+		<section id="category">
+			<div class="container">
+				<!--
+      				1. 要给ul加一个容器，这个容器有横向滚动条
+      				2. 动态设置ul的宽度，宽度是根据内容大小决定的
+        			width= sum (li.width)
+     		-->
+				<div class="ul-wapper">
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#home" aria-controls="home" role="tab" data-toggle="tab">同步剧场</a>
+						</li>
+						<li role="presentation">
+							<a href="#variety" aria-controls="variety" role="tab" data-toggle="tab">综艺</a>
+						</li>
+						<li role="presentation">
+							<a href="#file" aria-controls="file" role="tab" data-toggle="tab">电影精选</a>
+						</li>
+						<li role="presentation">
+							<a href="#comic" aria-controls="comic" role="tab" data-toggle="tab">动漫精选</a>
+						</li>
+						<li role="presentation">
+							<a href="#tour" aria-controls="tour" role="tab" data-toggle="tab">旅游美食</a>
+						</li>
+						<li role="presentation">
+							<a href="#game" aria-controls="game" role="tab" data-toggle="tab">游戏</a>
+						</li>
+						<li role="presentation">
+							<a href="#documentary" aria-controls="documentary" role="tab" data-toggle="tab">纪录片</a>
+						</li>
+						<li class="pull-right hidden-sm hidden-xs">
+							<a href="#">更多</a>
+						</li>
+					</ul>
+				</div>
+				<!-- 选项卡内容 -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="home">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige ">
+									<div class="panel-heading">
+										<a href="javascript:void(0)">
+											<img src="img/fuyao.jpg" />
+										</a>
+									</div>
+									<div class="panel-body">
+										<strong>扶摇  2018</strong>
+										<p class="tooltips">
+											<a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="4.5" href="javascript:void(0)">评分</a>
+											<a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="更新至12集" href="javascript:void(0)">更新</a>
+										</p>
+										<p class="wordtype">类型：古装、爱情</p>
+										<p class="wordtype">主演:杨幂、阮经天</p>
+										<strong><a href="javascript:void(0)">扶摇[会员超前看]</a></strong>
+										<p class="wordtype">燃！杨幂阮经天热血逆战</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige">
+									<div class="panel-heading">Panel heading without title</div>
+									<div class="panel-body">
+										Panel content
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige">
+									<div class="panel-heading">Panel heading without title</div>
+									<div class="panel-body">
+										Panel content
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige">
+									<div class="panel-heading">Panel heading without title</div>
+									<div class="panel-body">
+										Panel content
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige">
+									<div class="panel-heading">Panel heading without title</div>
+									<div class="panel-body">
+										Panel content
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige">
+									<div class="panel-heading">Panel heading without title</div>
+									<div class="panel-body">
+										Panel content
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="variety">...</div>
+					<div role="tabpanel" class="tab-pane fade" id="file">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige ">
+									<div class="panel-heading">
+										<a href="javascript:void(0)">
+											<img src="img/gmly.jpg" />
+										</a>
+									</div>
+									<div class="panel-body">
+										<strong>古墓丽影：源起之战</strong>
+										<p class="tooltips">
+											<a class="badge badge-one" data-toggle="tooltip" data-placement="top" title="8.5" href="javascript:void(0)">评分</a>
+											<a class="badge badge-two" data-toggle="tooltip" data-placement="top" title="全集" href="javascript:void(0)">更新</a>
+										</p>
+										<p class="wordtype">类型：动作、冒险</p>
+										<p class="wordtype">主演：艾丽西亚·维坎德、多米尼克·威斯特</p>
+										<strong><a href="javascript:void(0)">古墓丽影：源起之战</a></strong>
+										<p class="wordtype">坎妹联手吴彦祖爆燃开打</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige">
+									<div class="panel-heading">Panel heading without title</div>
+									<div class="panel-body">
+										Panel content
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige">
+									<div class="panel-heading">Panel heading without title</div>
+									<div class="panel-body">
+										Panel content
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige">
+									<div class="panel-heading">Panel heading without title</div>
+									<div class="panel-body">
+										Panel content
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige">
+									<div class="panel-heading">Panel heading without title</div>
+									<div class="panel-body">
+										Panel content
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="panel panel-huige">
+									<div class="panel-heading">Panel heading without title</div>
+									<div class="panel-body">
+										Panel content
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="comic">...</div>
+					<div role="tabpanel" class="tab-pane fade" id="tour">...</div>
+					<div role="tabpanel" class="tab-pane fade" id="game">...</div>
+					<div role="tabpanel" class="tab-pane fade" id="documentary">...</div>
+				</div>
+			</div>
+		</section>
+		<!--新闻-->
+		<section id="news">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2 col-sm-offset-2">
+						<div class="news-title">全部新闻</div>
+					</div>
+					<div class="col-sm-1">
+						<ul class="nav nav-pills nav-stacked">
+							<li role="presentation" class="active">
+								<a data-title="全部新闻" href="#news01" data-toggle="tab" role="tab">
+									<span class="glyphicon glyphicon-oil" aria-hidden="true"></span>
+								</a>
+							</li>
+							<li role="presentation">
+								<a data-title="娱乐新闻" href="#news02" data-toggle="tab" role="tab">
+									<span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
+								</a>
+							</li>
+							<li role="presentation">
+								<a data-title="行业资讯" href="#news03" data-toggle="tab" role="tab">
+									<span class="glyphicon glyphicon-grain" aria-hidden="true"></span>
+								</a>
+							</li>
+							<li role="presentation">
+								<a data-title="世界杯" href="#news04" data-toggle="tab" role="tab">
+									<span class="glyphicon glyphicon-knight" aria-hidden="true"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane fade in active" id="news01">
+								<ul>
+									<li>教育部曝光全国300多所“野鸡大学”</li>
+									<li>大妈捡手机索要2000元报酬 见失主报警竟直接摔碎手机</li>
+									<li>上海奉贤一在建工地发生模架坍塌事故 已致1死9伤</li>
+									<li>女司机车辆故障站路中给后车弯腰致歉 交警:担心你安全</li>
+									<li>2岁儿子被咬父亲将狗摔死 妻子不堪死亡威胁割腕轻生</li>
+									<li>爸爸让7岁女儿自己坐公交锻炼 结果把女儿跟丢了</li>
+								</ul>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="news02">
+								<ul>
+									<li>陈思诚佟丽娅被曝买下7000万澳洲豪宅</li>
+									<li>萧敬腾告白经纪人 爱上工作人员的不止他</li>
+									<li>太辣眼睛了！陈翔陈瑶竟强行上演床咚</li>
+									<li>101小姐姐《时尚芭莎》大片曝光 诡异画风似鬼片</li>
+									<li>周冬雨为什么招人喜欢？看完它你就懂了</li>
+									<li>叶璇晒现任男友照片 三小时前还点赞“前男友”动态</li>
+
+								</ul>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="news03">
+								<ul>
+									<li>凯恩帽子戏法 英格兰6-1大胜出线/li>
+										<li>凯恩帽子戏法 英格兰6-1大胜出线</li>
+										<li>凯恩帽子戏法 英格兰6-1大胜出线</li>
+										<li>凯恩帽子戏法 英格兰6-1大胜出线</li>
+										<li>凯恩帽子戏法 英格兰6-1大胜出线</li>
+										<li>凯恩帽子戏法 英格兰6-1大胜出线</li>
+								</ul>
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="news04">
+								<ul>
+									<li>凯恩帽子戏法 英格兰6-1大胜出线</li>
+									<li>凯恩帽子戏法 英格兰6-1大胜出线</li>
+									<li>凯恩帽子戏法 英格兰6-1大胜出线</li>
+									<li>凯恩帽子戏法 英格兰6-1大胜出线</li>
+									<li>凯恩帽子戏法 英格兰6-1大胜出线</li>
+									<li>凯恩帽子戏法 英格兰6-1大胜出线</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="hzhb" class="hidden-sm hidden-xs">
+			<div class="container text-center">
+				<h3>合作伙伴</h3>
+				<ul class="center-block">
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer id="footer"></footer>
+		<!-- Modal -->
+		<div class="modal fade" id="login_form" tabindex="-1" role="dialog" aria-labelledby="login_form_title">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="login_form_title">登录</h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+								<div class="col-sm-10">
+									<input type="email" class="form-control" id="inputEmail3" placeholder="请输入邮箱">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+								<div class="col-sm-10">
+									<input type="password" class="form-control" id="inputPassword3" placeholder="请输入密码">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<div class="checkbox">
+										<label><input type="checkbox"> Remember me</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-default">Sign in</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+		<script src="lib/jquery/jquery.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+
+</html>
